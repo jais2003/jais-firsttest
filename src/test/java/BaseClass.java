@@ -37,7 +37,7 @@ public void afterMethod() throws InterruptedException
 {
 	System.out.println("Hello I ran after each @test");
 	driverManger.stopServices();
-    Thread.sleep(2000);
+    Thread.sleep(1000);
 }
 
 @AfterSuite
